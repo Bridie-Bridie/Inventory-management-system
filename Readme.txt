@@ -3,11 +3,13 @@ CSS, Javascript, SQL and PHP. The concept of Ajax also has been implemented in t
 for the system, the users in this system have been divided into:
 1) Admin
 	Username: admin
-	Password: admin
+	Password: Qwefb@11
 2) User
-	Username: user
-	Password: user
+	Username: Tester1
+	Password: Mantra@11
 
-Database: newproject
+Database: newsql.sql
 
-Developed by: Nimesh Bajracharya
+Developed by: Bridie Oginga.
+
+i used some open source code by @npicado/salesforecasting
