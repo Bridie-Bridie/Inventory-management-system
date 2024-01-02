@@ -1,0 +1,565 @@
+.page{
+    background-color: white;
+    height: 100%;
+}
+
+.sidebar{
+    width: 220px;
+    margin-top: 65px;
+    background-color: aliceblue;
+    z-index: 10;
+    position:fixed ;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+.sidebar li:hover{
+    background-color: crimson;
+    width: 80%;
+    color: honeydew;
+}
+.sidebar li a{
+    text-decoration: none;
+}
+.sidebar li a:hover{
+    color: lightgoldenrodyellow;
+}
+
+.header {
+    position: fixed;
+    display: inline-block;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: lavender;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+.header h1{
+    margin: 10;
+    display: inline-block;
+    color: lightslategray;
+    font-family: fantasy;
+}
+.header a{
+    margin: 15;
+    float: right;
+}
+.header a:hover{
+    text-decoration: none;
+    color: red;
+}
+ul{
+    list-style-type: none;
+    margin: -30;
+}
+li{
+    padding: 15;
+}
+li span{
+    margin: 10;
+    font-size: large;
+    text-decoration: none;
+}
+li a{
+    color: black;
+}
+.newtxt{
+    display: inline-block;
+    border: solid blue 2px;
+    margin-top: 65;
+    width: 80%;
+}
+.newtxt h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 152;
+}
+.prdctdiv table{
+    border-radius: 15px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.prdctdiv table th{
+    text-align: center;
+    padding: 10;
+}
+.prdctdiv table td{
+    padding: 5;
+    text-align: center;
+}
+.prdct_hd{
+    padding: 5;
+    float: right;
+}
+
+.prdctdiv{
+    display: inline-block;
+    width: 80%;
+    padding: 5px;
+    margin-left: 250px;
+    margin-top: 65px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.prdctdiv form button{
+    padding: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps; 
+    float: right;
+    margin:10px ;
+}
+
+.prdctdiv h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color: darkolivegreen;
+    margin: 20px;
+}
+
+.prdctdiv a{
+    margin: 10px;
+}
+
+.report{
+    display: inline-block;
+    border: solid gray 2px;
+    position: absolute;
+    padding: 5;
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 250px;
+    margin-top: 65px;
+}
+.report_header{
+    
+    width: 100%;
+    text-align: center;
+    padding: 5;
+}
+.report table{
+    width: 100%;
+    margin-top: 10;
+    padding: 5;
+    border: solid green 2px;
+    width: 100%;
+    height: 100%;
+}
+.report table td{
+    text-align: center;   
+    padding: 5;
+}
+.report table th{
+    text-align: center;   
+    padding: 10;
+}
+.innerPwd{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.addprdct{
+    position: absolute;
+    display: inline-block;
+    border: solid red 2px;
+    width: 70%;
+    padding: 10px;
+
+}
+.addprdct h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.prdct-form{
+    border: solid blue 2px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+
+.prdctdiv form button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #231557;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px cornsilk;
+  }
+  
+  .prdctdiv form button:active {
+    box-shadow: 0 5px darkcyan;
+    transform: translateY(4px);
+  }
+
+  .prdctdiv form button:hover{
+    color: lightslategray;
+  }
+
+.login{
+    
+    background-image: url("../img/istockphoto-1303510161-170667a.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 95%;
+    width: 98%;
+    margin: 5px;
+}
+.login h2{
+    color: darkolivegreen;
+    text-align: center;
+    font-family: cursive;
+    font-size: 45px;
+    margin: 50px;
+}
+.sublogin{
+    width: 60%;
+    height: 45%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+}
+.sublogin form label{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sublogin form input{
+    margin-bottom: 10px;
+}         
+.sublogin form button {
+    border-radius: 4px;
+  background-color: gray;
+  border: none;
+  padding: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ }
+ .sublogin form button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .sublogin form button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .sublogin form button:hover span {
+    padding-right: 25px;
+  }
+  
+  .sublogin form button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
+.msg{
+    border: solid goldenrod 2px;
+    width: 50%;
+}
+
+.list-group-item:first-child,.list-group-item:last-child{
+    border-radius: 0;
+}
+
+.add_user{
+    border: solid greenyellow 2px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.add_user label{
+    text-align: center;
+}
+
+.add_user input{
+    margin: 10px;
+    padding: 2px;
+}
+
+.add_user button{
+    padding: 5px;
+}
+
+.eduser{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.eduser form input{
+    margin: 5px;
+}
+
+.h-header{
+    
+    height: 10%;
+}
+
+.h-left_content{
+    border-radius: 10px;
+    width:40%;
+    height: 72%;
+    margin: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    border-radius: 10px;
+    width:40%;
+    height: 72%;
+    margin: 5px;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5px;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-image: linear-gradient(purple,blue);
+    color: wheat;
+    transform: rotateY(180deg);
+  }
+
+.h-left_content :hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.h-right_content{
+    border-radius: 10px;
+    width:58%;
+    height: 73%;
+    margin: 5px;
+    margin-right: 0;
+    position: absolute;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+@font-face {
+    font-family: fc;
+    src: url('LithosPro-Regular.otf');
+}
+
+.h-right_content h2{
+    font-family: fc;
+    text-align: center;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;  
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+@font-face {
+    font-family: fch3;
+    src: url('bradley_hand_itc_tt_bold.ttf');
+}
+  
+.h-right_content h3{
+    font-family: fch3;
+    text-align: center;
+    position: relative;
+    max-width: 500px;
+    margin: 5px auto;
+}
+
+.h-right_content h3:before{
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: orangered;
+}
+
+.h-right_content h3:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: darkcyan;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.h-right_content li{
+    
+    animation: fadeIn ;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+}
+  
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.h-right_content p{
+    text-align: center;
+}
+
+.h-footer{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 10%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo{
+    border: solid gray 1px;
+    height: auto;
+    width: 50%;
+    margin: 5px;
+    background-image: url("../img/freshbake2.jpg");
+    background-size: 9%;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: inline-block;
+    background-color: darkcyan;
+}
+
+.logo h1{
+    float: right;
+    margin: 5px;
+    display: inline-block;
+}
+
+.ref{
+    border: solid peru 2px;
+    width: 48%;
+    margin: 5px;
+    height: auto;
+    display: inline-block;
+    float: right;
+    background-color: orangered;
+}
+
+.ref h1{
+    margin: 5px;
+    display: inline-block;
+    color: white;
+}
+
+.ref a{
+    display: inline-block;
+    margin: 10px;
+    float: right;
+    text-decoration: none;
+}
+
+.sub-content{
+    margin-top: 100px;
+}
+
+.prdctdiv th{
+    background-color: #231557;
+    color:#fff;
+    height: 50px;
+}
