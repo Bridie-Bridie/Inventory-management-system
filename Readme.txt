@@ -13,3 +13,5 @@ Database: newsql.sql
 Developed by: Bridie Oginga.
 
 i used some open source code by @npicado/salesforecasting
+
+note: it is for an attempt at sales forecasting ratherthan product forecasting which is going to be implemented in the future
